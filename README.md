@@ -9,7 +9,7 @@
 
 ## 📖 Sobre o Repositório
 
-Este repositório foi criado para registrar minha evolução durante o **Bootcamp Java & IA**, promovido pelo **Itaú Unibanco** em parceria com a **DIO (Digital Innovation One)**.
+Este repositório foi criado para registrar minha evolução durante o **Bootcamp Java & IA**, promovido pelo **Itaú Unibanco** em parceria com a plataforma **DIO (Digital Innovation One)**.
 
 Aqui serão armazenados exercícios, desafios de código, projetos e anotações desenvolvidos ao longo da formação.
 
