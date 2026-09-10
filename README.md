@@ -154,7 +154,7 @@ Após a conclusão da formação, o certificado será adicionado a esta seção.
 
 [![GitHub](https://img.shields.io/badge/GitHub-nicolasccampos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nicolasccampos)
 
-[![LinkedIn]([[https://img.shields.io/badge/LinkedIn-Nicolas%20Coimbra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-coimbra-de-campos/)]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nicolas%20Coimbra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-coimbra-de-campos/)
 
 ---
 
