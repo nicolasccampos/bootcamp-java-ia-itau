@@ -13,73 +13,100 @@ Este repositório foi criado para registrar minha evolução durante o **Bootcam
 
 Aqui serão armazenados exercícios, desafios de código, projetos e anotações desenvolvidos ao longo da formação.
 
-Mais do que reunir códigos, a proposta deste repositório é acompanhar minha evolução em **Java**, desde os fundamentos da linguagem até conceitos de desenvolvimento Backend e integração com **Inteligência Artificial**.
+Mais do que reunir códigos, a proposta deste repositório é acompanhar minha evolução em **Java**, desde os fundamentos da linguagem até conceitos de desenvolvimento Backend, Spring Boot e integração com **Inteligência Artificial**.
 
 ---
 
 ## 🎯 Sobre o Bootcamp
 
-O programa possui aproximadamente **45 horas de conteúdo** e apresenta uma jornada prática de desenvolvimento utilizando Java.
+O programa possui aproximadamente **45 horas de conteúdo**, combinando aprendizado teórico com atividades e desafios práticos.
 
-Durante a formação, são abordados desde os fundamentos da linguagem até **Programação Orientada a Objetos (POO)**, desenvolvimento com **Spring Boot** e integração de **Inteligência Artificial Generativa** em aplicações.
+### 📚 A formação conta com:
 
-A formação conta com:
-
-- 📚 Cursos e conteúdos teóricos
-- 💻 Desafios de código
-- 🚀 Desafios de projeto
-- 🎥 Mentorias com profissionais
-- 🧠 Inteligência Artificial aplicada ao desenvolvimento
-- ☕ Desenvolvimento Backend com Java e Spring Boot
-- 🤝 Interação com a comunidade DIO
+- 🎓 **22 cursos**
+- 🚀 **2 desafios de projeto**
+- 💻 **2 desafios de código**
+- 🎥 **1 live**
+- 🤖 Conteúdos sobre Inteligência Artificial
+- ☕ Desenvolvimento com Java
+- 🌱 Ecossistema Spring
 
 ---
 
-## 🧠 Conteúdos da Jornada
+## 🗺️ Jornada de Aprendizado
 
-Ao longo do bootcamp, estou estudando e praticando diferentes conceitos relacionados ao desenvolvimento com Java.
+A formação está organizada em diferentes etapas, partindo do uso da Inteligência Artificial como ferramenta de apoio até o desenvolvimento de aplicações com Java e Spring.
 
-### ☕ Java
+### 🤖 1. Potencializando Sua Jornada com Inteligência Artificial e Agentes
 
-- Fundamentos da linguagem
-- Sintaxe Java
-- Estruturas condicionais
-- Estruturas de repetição
-- Métodos
-- Tratamento de exceções
-- Collections
-- Programação Orientada a Objetos (POO)
+**6 atividades**
 
-### 🌱 Spring Boot
+Conteúdos voltados à utilização da Inteligência Artificial como ferramenta de aprendizado, produtividade e apoio durante o desenvolvimento.
 
-- Introdução ao Spring Framework
-- Desenvolvimento Backend
-- APIs REST
-- Estruturação de aplicações
-- Integração entre serviços
-
-### 🤖 Inteligência Artificial
-
-- Fundamentos de IA Generativa
-- Utilização de IA durante o desenvolvimento
-- Integração de IA com aplicações Java
-- Reconhecimento de fala
-
-> Os conteúdos serão adicionados e atualizados conforme meu progresso no bootcamp.
+**Status:** 🔄 Em andamento
 
 ---
 
-## 🚀 Projetos e Desafios
+### ☕ 2. Fundamentos para Começar a Programar em Java
 
-Esta seção será atualizada à medida que eu concluir os desafios propostos durante a formação.
+**4 atividades**
 
-| Projeto / Desafio | Tecnologias | Status |
-|-------------------|-------------|--------|
-| Desafios de Java | Java | 🔄 Em andamento |
-| Programação Orientada a Objetos | Java / POO | ⏳ A iniciar |
-| Projetos com Spring Boot | Java / Spring Boot | ⏳ A iniciar |
-| Integração com IA | Java / IA | ⏳ A iniciar |
-| API com reconhecimento de fala | Java / Spring Boot / IA | ⏳ A iniciar |
+Introdução aos fundamentos necessários para iniciar o desenvolvimento utilizando Java, construindo uma base para os próximos módulos da formação.
+
+**Status:** ⏳ A iniciar
+
+---
+
+### 🧩 3. Programando o Mundo Real com Orientação a Objetos em Java
+
+**6 atividades**
+
+Estudo e aplicação dos conceitos de **Programação Orientada a Objetos (POO)** utilizando Java para desenvolver soluções mais organizadas e estruturadas.
+
+**Status:** ⏳ A iniciar
+
+---
+
+### 🌐 4. Fundamentos da Web e Boas Práticas de Desenvolvimento com Java
+
+**6 atividades**
+
+Estudo dos fundamentos relacionados ao desenvolvimento Web e das boas práticas utilizadas durante a construção de aplicações com Java.
+
+**Status:** ⏳ A iniciar
+
+---
+
+### 🌱 5. Criando APIs Modernas no Ecossistema Spring: Boot, Data, Security, Cloud e AI
+
+**5 atividades**
+
+Etapa dedicada ao estudo do ecossistema Spring e à construção de aplicações e APIs modernas.
+
+Entre as tecnologias e conceitos apresentados estão:
+
+- Spring Boot
+- Spring Data
+- Spring Security
+- Spring Cloud
+- Spring AI
+- Desenvolvimento de APIs
+
+**Status:** ⏳ A iniciar
+
+---
+
+## 📊 Progresso
+
+Esta seção será atualizada conforme avanço na formação.
+
+| Módulo | Atividades | Status |
+|--------|:----------:|:------:|
+| 🤖 Inteligência Artificial e Agentes | 6 | 🔄 Em andamento |
+| ☕ Fundamentos de Java | 4 | ⏳ A iniciar |
+| 🧩 Orientação a Objetos com Java | 6 | ⏳ A iniciar |
+| 🌐 Fundamentos Web e Boas Práticas | 6 | ⏳ A iniciar |
+| 🌱 APIs Modernas com Spring | 5 | ⏳ A iniciar |
 
 ### Status
 
@@ -89,20 +116,48 @@ Esta seção será atualizada à medida que eu concluir os desafios propostos du
 
 ---
 
+## 🚀 Projetos e Desafios
+
+Além dos cursos, o bootcamp conta com atividades práticas para aplicar os conhecimentos adquiridos durante a formação.
+
+### 💻 Desafios de Código
+
+**2 desafios**
+
+Os desafios de código serão adicionados ao repositório conforme forem realizados.
+
+- [ ] Desafio de Código 01
+- [ ] Desafio de Código 02
+
+### 🛠️ Desafios de Projeto
+
+**2 projetos**
+
+Os projetos serão documentados conforme forem desenvolvidos, incluindo código-fonte e informações sobre o processo de desenvolvimento.
+
+- [ ] Desafio de Projeto 01
+- [ ] Desafio de Projeto 02
+
+---
+
 ## 📂 Organização do Repositório
 
 Conforme avanço na formação, o repositório será organizado para separar os diferentes conteúdos estudados.
 
 ```text
 📦 java-ia-itau-dio
- ┣ 📂 fundamentos-java
- ┣ 📂 desafios-codigo
- ┣ 📂 poo
- ┣ 📂 spring-boot
- ┣ 📂 inteligencia-artificial
- ┣ 📂 projetos
- ┣ 📄 .gitignore
- ┗ 📄 README.md
+│
+├── 📂 01-inteligencia-artificial
+├── 📂 02-fundamentos-java
+├── 📂 03-orientacao-a-objetos
+├── 📂 04-fundamentos-web
+├── 📂 05-spring
+│
+├── 📂 desafios-codigo
+├── 📂 desafios-projeto
+│
+├── 📄 .gitignore
+└── 📄 README.md
 ```
 
 A estrutura poderá mudar conforme novos conteúdos e projetos forem desenvolvidos.
@@ -111,12 +166,12 @@ A estrutura poderá mudar conforme novos conteúdos e projetos forem desenvolvid
 
 ## 🛠️ Tecnologias e Ferramentas
 
-### Tecnologias
+### ☕ Tecnologias estudadas durante a formação
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
-### Ferramentas
+### 🔧 Ferramentas
 
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -126,21 +181,31 @@ A estrutura poderá mudar conforme novos conteúdos e projetos forem desenvolvid
 
 ## 📈 Objetivo
 
-Meu objetivo com esta formação é aprofundar meus conhecimentos em **Java e desenvolvimento Backend**, colocando em prática conceitos que também fazem parte da minha formação em Ciência da Computação.
+Meu objetivo com esta formação é aprofundar meus conhecimentos em **Java e desenvolvimento Backend**, complementando os conceitos estudados durante minha graduação em Ciência da Computação com atividades práticas.
 
-Ao longo do bootcamp, busco desenvolver uma compreensão cada vez maior sobre **Programação Orientada a Objetos, Spring Boot, APIs e desenvolvimento de aplicações**, além de conhecer possibilidades de integração entre **Java e Inteligência Artificial**.
+Ao longo do bootcamp, busco evoluir meus conhecimentos em **Java, Programação Orientada a Objetos, desenvolvimento Web, APIs e Spring Boot**, além de explorar as possibilidades de utilização da **Inteligência Artificial** no desenvolvimento de software.
 
-Este repositório representa parte da minha jornada de aprendizado e será atualizado conforme avanço na formação.
+Este repositório também funciona como um registro da minha evolução, permitindo acompanhar meu aprendizado desde os fundamentos até projetos mais completos.
 
 ---
 
-## 🎓 Certificação
+## 🎓 Certificados
+
+Nesta seção registro os certificados conquistados durante minha jornada de aprendizado na DIO.
+
+### ✅ Certificado DIO
+
+[![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/LKLYRWR0.pdf)
+
+📄 [Visualizar certificado em PDF](https://hermes.dio.me/certificates/LKLYRWR0.pdf)
+
+### 🏆 Certificação do Bootcamp
 
 🔄 **Bootcamp Java & IA — Itaú + DIO**
 
-Status: Em andamento.
+**Status:** Em andamento.
 
-Após a conclusão da formação, o certificado será adicionado a esta seção.
+Após a conclusão de todas as atividades, o certificado final da formação será adicionado aqui.
 
 ---
 
