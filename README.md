@@ -48,6 +48,8 @@ Conteúdos voltados à utilização da Inteligência Artificial como ferramenta 
 📂 [Acessar estudos de Inteligência Artificial](./01-inteligencia-artificial/)
 
 **Status:** 🔄 Em andamento
+<br>
+
 ---
 
 ### ☕ 2. Fundamentos para Começar a Programar em Java
