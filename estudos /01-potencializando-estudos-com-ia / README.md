@@ -1,8 +1,8 @@
-# Potencializando Seus Estudos e Carreira com IA 🤖
+# Potencializando Seus Estudos e Carreira com IA 
 
-Neste módulo do Bootcamp Java e IA - Itaú + DIO, estudei como diferentes formas de Inteligência Artificial podem ser utilizadas nos estudos, no desenvolvimento e na organização do trabalho.
+Neste módulo do Bootcamp Java e ia - Itaú + dio, estudei como diferentes formas de Inteligência Artificial podem ser utilizadas nos estudos, no desenvolvimento e na organização do trabalho.
 
-## 📚 Conteúdos estudados
+## Conteúdos estudados
 
 ### 1. Sua Jornada com IA Começa Aqui
 
@@ -27,13 +27,13 @@ Nesta etapa, estudei como utilizar chatbots de forma mais eficiente.
 - A IA pode ser utilizada para explorar diferentes caminhos dentro da área de tecnologia.
 - Respostas geradas por IA devem ser analisadas e validadas pelo usuário.
 
-### 💡 Principal aprendizado
+### Principal aprendizado
 
 Não basta apenas fazer uma pergunta para uma IA. Saber explicar o problema, fornecer contexto e definir o resultado esperado faz parte do processo de obter uma resposta realmente útil.
 
 ---
 
-## 👨‍💻 3. Trabalhe Lado a Lado — Copilotos
+## 3. Trabalhe Lado a Lado — Copilotos
 
 Nesta etapa, conheci melhor o conceito de copilotos de IA e sua integração ao fluxo de trabalho.
 
@@ -45,7 +45,7 @@ Nesta etapa, conheci melhor o conceito de copilotos de IA e sua integração ao 
 - Estruturação de planos e atividades.
 - Uso da IA durante o desenvolvimento de tarefas.
 
-### 💡 Principal aprendizado
+### Principal aprendizado
 
 Diferentemente de apenas conversar com um chatbot, um copiloto pode acompanhar o usuário enquanto uma atividade está sendo realizada e oferecer sugestões durante o processo.
 
@@ -53,7 +53,7 @@ No desenvolvimento de software, isso pode ajudar na produtividade, mas continua 
 
 ---
 
-## 🤖 4. Delegue e Acompanhe — Agentes de IA
+## 4. Delegue e Acompanhe — Agentes de IA
 
 Na última etapa, estudei o conceito de agentes de Inteligência Artificial.
 
@@ -67,7 +67,7 @@ Agentes podem receber um objetivo e utilizar ferramentas disponíveis para execu
 - Execução de tarefas utilizando ferramentas.
 - Delegação e acompanhamento de atividades.
 
-### 💡 Principal aprendizado
+### Principal aprendizado
 
 O uso de agentes muda a interação com a IA porque, em vez de apenas solicitar informações, é possível delegar determinadas tarefas e acompanhar sua execução.
 
@@ -75,7 +75,7 @@ Mesmo com maior autonomia, é importante acompanhar e validar as ações realiza
 
 ---
 
-## 🧠 Chatbot x Copiloto x Agente
+## Chatbot x Copiloto x Agente
 
 ### Chatbot
 Recebe uma solicitação e gera uma resposta.
@@ -88,7 +88,7 @@ Recebe um objetivo e pode planejar e executar ações utilizando ferramentas dis
 
 ---
 
-## 🎯 Conclusão
+## Conclusão
 
 Este módulo me ajudou a compreender que trabalhar com Inteligência Artificial vai além de simplesmente fazer perguntas para um chatbot.
 
@@ -97,5 +97,3 @@ Cada abordagem possui um nível diferente de interação:
 **Perguntar → Trabalhar em conjunto → Delegar e acompanhar**
 
 Também ficou evidente a importância de utilizar IA de maneira crítica, compreendendo e validando as respostas, sugestões e ações geradas.
-
-Este conhecimento servirá como base para os próximos conteúdos e projetos do bootcamp.
