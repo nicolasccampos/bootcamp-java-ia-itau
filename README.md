@@ -33,18 +33,21 @@ O programa possui aproximadamente **45 horas de conteúdo**, combinando aprendiz
 
 ---
 
-## 🗺️ Jornada de Aprendizado
-
-A formação está organizada em diferentes etapas, partindo do uso da Inteligência Artificial como ferramenta de apoio até o desenvolvimento de aplicações com Java e Spring.
-
 ### 🤖 1. Potencializando Sua Jornada com Inteligência Artificial e Agentes
 
 **6 atividades**
 
 Conteúdos voltados à utilização da Inteligência Artificial como ferramenta de aprendizado, produtividade e apoio durante o desenvolvimento.
 
-**Status:** 🔄 Em andamento
+#### ✅ Conteúdos concluídos
 
+- [x] **Boas-vindas ao Bootcamp Itaú - Java com Inteligência Artificial**
+- [x] **Fundamentos da IA Moderna: Machine Learning, LLMs, IA Generativa e Agentes**
+- [x] **Potencializando Seus Estudos e Carreira com IA: Chatbots, Copilotos e Agentes**
+
+📂 [Acessar estudos de Inteligência Artificial](./01-inteligencia-artificial/)
+
+**Status:** 🔄 Em andamento
 ---
 
 ### ☕ 2. Fundamentos para Começar a Programar em Java
