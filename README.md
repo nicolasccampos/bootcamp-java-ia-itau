@@ -52,7 +52,7 @@ Conteúdos voltados à utilização da Inteligência Artificial como ferramenta 
 - [x] **DIO Agent: Nunca Mais Estude Sozinho**
 - [x] **Mentoria: Live de Abertura da Experiência Itaú**
 
-📂 [Acessar estudos de Inteligência Artificial](./01-inteligencia-artificial/)
+📂 [Acessar anotações e certificados de Inteligência Artificial](./01-inteligencia-artificial/)
 
 **Status:** ✅ Concluído
 
@@ -164,7 +164,8 @@ Conforme avanço na formação, o repositório será organizado para separar os 
 │   ├── 📂 03-chatbots-copilotos-agentes
 │   ├── 📂 04-engenharia-de-prompts
 │   ├── 📂 05-dio-agent
-│   └── 📂 06-live-de-abertura
+│   ├── 📂 06-live-de-abertura
+│   └── 📄 README.md (Anotações e Certificados do Módulo 1)
 │
 ├── 📂 02-fundamentos-java
 ├── 📂 03-orientacao-a-objetos
@@ -177,8 +178,6 @@ Conforme avanço na formação, o repositório será organizado para separar os 
 ├── 📄 .gitignore
 └── 📄 README.md
 ```
-
-A estrutura poderá mudar conforme novos conteúdos e projetos forem desenvolvidos.
 
 ---
 
@@ -207,33 +206,15 @@ Este repositório também funciona como um registro da minha evolução, permiti
 
 ---
 
-## 🎓 Certificados
+## 🎓 Certificação do Bootcamp
 
-Nesta seção registro os certificados conquistados nos cursos da formação.
-
-### 📜 Certificados dos Cursos Concluídos
-
-1. **Fundamentos da IA Moderna: Machine Learning, LLMs, IA Generativa e Agentes**  
-   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/GVRA3VKY.pdf)
-
-2. **Potencializando Seus Estudos e Carreira com IA (Chatbots, Copilotos e Agentes)**  
-   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/YTOCPWND.pdf)
-
-3. **Introdução à Engenharia de Prompts**  
-   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/40VKIMYS.pdf)
-
-4. **DIO Agent: Nunca Mais Estude Sozinho**  
-   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/EKIRDYRM.pdf)
-
----
-
-### 🏆 Certificação Final do Bootcamp
+### 🏆 Certificado Geral da Formação
 
 🔄 **Bootcamp Java & IA — Itaú + DIO**
 
-**Status:** Em andamento.
+**Status:** Em andamento (Módulo 1/5 concluído).
 
-Após a conclusão de todas as atividades, desafios e projetos da formação, o certificado final do bootcamp será adicionado aqui.
+*(Os certificados de cada curso concluído podem ser consultados dentro da pasta de cada módulo).*
 
 ---
 
