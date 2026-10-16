@@ -207,12 +207,47 @@ Este repositório também funciona como um registro da minha evolução, permiti
 
 ## 🎓 Certificados
 
-Nesta seção registro os certificados individuais dos cursos concluídos durante minha jornada no bootcamp.
+Nesta seção registro os certificados conquestados nos cursos da formação.
 
-### 📜 Certificados dos Cursos (DIO)
+### 📜 Certificados dos Cursos Concluídos
 
-- 🤖 **Fundamentos da IA Moderna: Machine Learning, LLMs, IA Generativa e Agentes**  
-  📄 [Visualizar Certificado (PDF)](https://hermes.dio.me/certificates/GVRA3VKY.pdf)
+1. **Fundamentos da IA Moderna: Machine Learning, LLMs, IA Generativa e Agentes**  
+   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/GVRA3VKY.pdf)
 
-- 💡 **Potencializando Seus Estudos e Carreira com IA (Chatbots, Copilotos e Agentes)**  
-  📄 [Visualizar Certificado (PDF)](https://hermes.dio.me/certificates/YTOCPWND.pdf)
+2. **Potencializando Seus Estudos e Carreira com IA (Chatbots, Copilotos e Agentes)**  
+   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/YTOCPWND.pdf)
+
+3. **Introdução à Engenharia de Prompts**  
+   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/40VKIMYS.pdf)
+
+4. **DIO Agent: Nunca Mais Estude Sozinho**  
+   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/EKIRDYRM.pdf)
+
+---
+
+### 🏆 Certificação Final do Bootcamp
+
+🔄 **Bootcamp Java & IA — Itaú + DIO**
+
+**Status:** Em andamento.
+
+Após a conclusão de todas as atividades, desafios e projetos da formação, o certificado final do bootcamp será adicionado aqui.
+
+---
+
+## 👨‍💻 Autor
+
+**Nicolas Coimbra**
+
+🎓 Ciência da Computação — FECAP  
+💻 Interesse em desenvolvimento Backend e Full Stack  
+☕ Estudando Java & Spring Boot
+
+[![GitHub](https://img.shields.io/badge/GitHub-nicolasccampos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nicolasccampos)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nicolas%20Coimbra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-coimbra-de-campos/)
+
+---
+
+⭐ Este repositório será atualizado durante minha jornada no **Bootcamp Java & IA — Itaú + DIO**.
+
+📚 Cada exercício, desafio e projeto representa uma etapa da minha evolução como desenvolvedor.
