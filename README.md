@@ -207,37 +207,12 @@ Este repositório também funciona como um registro da minha evolução, permiti
 
 ## 🎓 Certificados
 
-Nesta seção registro os certificados conquistados durante minha jornada de aprendizado na DIO.
+Nesta seção registro os certificados individuais dos cursos concluídos durante minha jornada no bootcamp.
 
-### ✅ Certificado DIO
+### 📜 Certificados dos Cursos (DIO)
 
-[![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/LKLYRWR0.pdf)
+- 🤖 **Fundamentos da IA Moderna: Machine Learning, LLMs, IA Generativa e Agentes**  
+  📄 [Visualizar Certificado (PDF)](https://hermes.dio.me/certificates/GVRA3VKY.pdf)
 
-📄 [Visualizar certificado em PDF](https://hermes.dio.me/certificates/LKLYRWR0.pdf)
-
-### 🏆 Certificação do Bootcamp
-
-🔄 **Bootcamp Java & IA — Itaú + DIO**
-
-**Status:** Em andamento.
-
-Após a conclusão de todas as atividades, o certificado final da formação será adicionado aqui.
-
----
-
-## 👨‍💻 Autor
-
-**Nicolas Coimbra**
-
-🎓 Ciência da Computação — FECAP  
-💻 Interesse em desenvolvimento Backend e Full Stack  
-☕ Estudando Java & Spring Boot
-
-[![GitHub](https://img.shields.io/badge/GitHub-nicolasccampos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nicolasccampos)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nicolas%20Coimbra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-coimbra-de-campos/)
-
----
-
-⭐ Este repositório será atualizado durante minha jornada no **Bootcamp Java & IA — Itaú + DIO**.
-
-📚 Cada exercício, desafio e projeto representa uma etapa da minha evolução como desenvolvedor.
+- 💡 **Potencializando Seus Estudos e Carreira com IA (Chatbots, Copilotos e Agentes)**  
+  📄 [Visualizar Certificado (PDF)](https://hermes.dio.me/certificates/YTOCPWND.pdf)
