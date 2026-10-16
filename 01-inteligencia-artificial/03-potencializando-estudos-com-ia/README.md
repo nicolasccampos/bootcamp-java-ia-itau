@@ -14,7 +14,7 @@ Também foi apresentada a evolução do nível de interação com IA:
 
 ---
 
-## 💬 2. Pergunte e Receba Respostas Inteligentes — Chatbots
+## 2. Pergunte e Receba Respostas Inteligentes — Chatbots
 
 Nesta etapa, estudei como utilizar chatbots de forma mais eficiente.
 
