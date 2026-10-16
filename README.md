@@ -50,10 +50,11 @@ Conteúdos voltados à utilização da Inteligência Artificial como ferramenta 
 - [x] **Potencializando Seus Estudos e Carreira com IA: Chatbots, Copilotos e Agentes**
 - [x] **Introdução à Engenharia de Prompts**
 - [x] **DIO Agent: Nunca Mais Estude Sozinho**
+- [x] **Mentoria: Live de Abertura da Experiência Itaú**
 
 📂 [Acessar estudos de Inteligência Artificial](./01-inteligencia-artificial/)
 
-**Status:** 🔄 Em andamento
+**Status:** ✅ Concluído
 
 ---
 
@@ -63,7 +64,7 @@ Conteúdos voltados à utilização da Inteligência Artificial como ferramenta 
 
 Introdução aos fundamentos necessários para iniciar o desenvolvimento utilizando Java, construindo uma base para os próximos módulos da formação.
 
-**Status:** ⏳ A iniciar
+**Status:** 🔄 Em andamento
 
 ---
 
@@ -112,8 +113,8 @@ Esta seção será atualizada conforme avanço na formação.
 
 | Módulo | Atividades | Status |
 |--------|:----------:|:------:|
-| 🤖 Inteligência Artificial e Agentes | 6 | 🔄 Em andamento |
-| ☕ Fundamentos de Java | 4 | ⏳ A iniciar |
+| 🤖 Inteligência Artificial e Agentes | 6 | ✅ Concluído |
+| ☕ Fundamentos de Java | 4 | 🔄 Em andamento |
 | 🧩 Orientação a Objetos com Java | 6 | ⏳ A iniciar |
 | 🌐 Fundamentos Web e Boas Práticas | 6 | ⏳ A iniciar |
 | 🌱 APIs Modernas com Spring | 5 | ⏳ A iniciar |
@@ -162,7 +163,8 @@ Conforme avanço na formação, o repositório será organizado para separar os 
 │   ├── 📂 02-fundamentos-ia-moderna
 │   ├── 📂 03-chatbots-copilotos-agentes
 │   ├── 📂 04-engenharia-de-prompts
-│   └── 📂 05-dio-agent
+│   ├── 📂 05-dio-agent
+│   └── 📂 06-live-de-abertura
 │
 ├── 📂 02-fundamentos-java
 ├── 📂 03-orientacao-a-objetos
@@ -207,7 +209,7 @@ Este repositório também funciona como um registro da minha evolução, permiti
 
 ## 🎓 Certificados
 
-Nesta seção registro os certificados conquestados nos cursos da formação.
+Nesta seção registro os certificados conquistados nos cursos da formação.
 
 ### 📜 Certificados dos Cursos Concluídos
 
