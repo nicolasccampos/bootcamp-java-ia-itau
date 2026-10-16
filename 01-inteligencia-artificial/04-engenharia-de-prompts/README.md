@@ -1,99 +1,56 @@
-# Potencializando Seus Estudos e Carreira com IA 
+# Introdução à Engenharia de Prompts
 
-Neste módulo do Bootcamp Java e ia - Itaú + dio, estudei como diferentes formas de Inteligência Artificial podem ser utilizadas nos estudos, no desenvolvimento e na organização do trabalho.
+Neste módulo do **Bootcamp Java & IA (Itaú + DIO)**, estudei os conceitos fundamentais da **Engenharia de Prompts**, compreendendo como os Modelos de Linguagem (LLMs) interpretam instruções e como estruturar comandos eficientes para obter respostas mais precisas e úteis.
+
+---
 
 ## Conteúdos estudados
 
-### 1. Sua Jornada com IA Começa Aqui
+### 1. Visão Geral e Funcionamento dos LLMs
 
-Introdução ao uso de Inteligência Artificial como ferramenta de apoio durante a jornada de aprendizado e desenvolvimento profissional.
-
-Também foi apresentada a evolução do nível de interação com IA:
-
-**Chatbots → Copilotos → Agentes**
+- **Como os modelos "entendem" um prompt:** Os modelos de linguagem processam o texto dividindo instruções em *tokens* e utilizando padrões estatísticos e mecanismos de atenção para compreender a intenção.
+- **Como os modelos "lembram" do contexto:** O conceito de janela de contexto (*context window*), em que o modelo utiliza as mensagens anteriores para manter a coerência da conversa.
 
 ---
 
-## 💬 2. Pergunte e Receba Respostas Inteligentes — Chatbots
+### 2. Elementos Essenciais de um Bom Prompt
 
-Nesta etapa, estudei como utilizar chatbots de forma mais eficiente.
+Para garantir respostas de alta qualidade e com menor índice de erros, um prompt bem estruturado deve conter:
 
-### Principais aprendizados
-
-- A qualidade da pergunta influencia diretamente a qualidade da resposta.
-- Fornecer contexto ajuda a IA a compreender melhor o problema.
-- Prompts claros e específicos tendem a produzir respostas mais úteis.
-- Chatbots podem auxiliar na pesquisa e nos estudos.
-- A IA pode ser utilizada para explorar diferentes caminhos dentro da área de tecnologia.
-- Respostas geradas por IA devem ser analisadas e validadas pelo usuário.
-
-### Principal aprendizado
-
-Não basta apenas fazer uma pergunta para uma IA. Saber explicar o problema, fornecer contexto e definir o resultado esperado faz parte do processo de obter uma resposta realmente útil.
+1. **Instrução (Task):** O comando claro do que a IA deve executar.
+2. **Contexto (Context):** Informações de fundo para guiar a atuação da IA.
+3. **Dados de Entrada (Input Data):** O conteúdo ou problema específico a ser processado.
+4. **Formato de Saída (Output Indicator):** A estrutura esperada para a resposta (ex: JSON, tabela, código Java, lista, Markdown).
 
 ---
 
-## 3. Trabalhe Lado a Lado — Copilotos
+### 3. Aplicações Práticas no Desenvolvimento de Software
 
-Nesta etapa, conheci melhor o conceito de copilotos de IA e sua integração ao fluxo de trabalho.
+A Engenharia de Prompts pode ser aplicada no dia a dia dev para:
 
-### Aplicações estudadas
-
-- Sugestões em tempo real.
-- Apoio durante a escrita de código.
-- Auxílio na elaboração de textos e e-mails.
-- Estruturação de planos e atividades.
-- Uso da IA durante o desenvolvimento de tarefas.
-
-### Principal aprendizado
-
-Diferentemente de apenas conversar com um chatbot, um copiloto pode acompanhar o usuário enquanto uma atividade está sendo realizada e oferecer sugestões durante o processo.
-
-No desenvolvimento de software, isso pode ajudar na produtividade, mas continua sendo responsabilidade do desenvolvedor compreender, revisar e testar o código sugerido.
+- Explicar trechos de código complexos ou erros de compilação/execução.
+- Auxiliar na refatoração de código e aplicação de boas práticas.
+- Gerar documentação técnica, testes unitários e arquivos de configuração.
+- Escrever e-mails profissionais e resumos de tarefas.
 
 ---
 
-## 4. Delegue e Acompanhe — Agentes de IA
+### 4. Cuidados Importantes no Uso de IA
 
-Na última etapa, estudei o conceito de agentes de Inteligência Artificial.
-
-Agentes podem receber um objetivo e utilizar ferramentas disponíveis para executar diferentes ações necessárias para alcançar esse objetivo.
-
-### Exemplos apresentados durante o módulo
-
-- Criação e organização de um workspace de estudos.
-- Organização de imagens e arquivos.
-- Utilização do navegador por agentes.
-- Execução de tarefas utilizando ferramentas.
-- Delegação e acompanhamento de atividades.
-
-### Principal aprendizado
-
-O uso de agentes muda a interação com a IA porque, em vez de apenas solicitar informações, é possível delegar determinadas tarefas e acompanhar sua execução.
-
-Mesmo com maior autonomia, é importante acompanhar e validar as ações realizadas.
+- **Alucinações:** Modelos de linguagem podem gerar respostas incorretas ou inventar informações com aparência de verdade.
+- **Segurança e Privacidade:** Nunca enviar dados sensíveis, senhas, chaves de API ou informações confidenciais nos prompts.
+- **Validação Humana:** O código ou texto gerado pela IA deve sempre ser revisado, testado e validado pelo desenvolvedor antes de ser utilizado.
 
 ---
 
-## Chatbot x Copiloto x Agente
+## Principais Aprendizados
 
-### Chatbot
-Recebe uma solicitação e gera uma resposta.
-
-### Copiloto
-Auxilia o usuário durante a execução de uma atividade, oferecendo sugestões dentro do fluxo de trabalho.
-
-### Agente
-Recebe um objetivo e pode planejar e executar ações utilizando ferramentas disponíveis.
+- Um prompt eficiente não é apenas uma pergunta genérica, mas uma **instrução rica em contexto**.
+- Saber se comunicar com a IA (fornecendo contexto, restrições e formato desejado) é uma habilidade que aumenta diretamente a produtividade.
+- A IA atua como uma ferramenta de apoio (*copilot*), mas a responsabilidade do resultado final continua sendo do desenvolvedor.
 
 ---
 
-## Conclusão
+## Próximos Passos
 
-Este módulo me ajudou a compreender que trabalhar com Inteligência Artificial vai além de simplesmente fazer perguntas para um chatbot.
-
-Cada abordagem possui um nível diferente de interação:
-
-**Perguntar → Trabalhar em conjunto → Delegar e acompanhar**
-
-Também ficou evidente a importância de utilizar IA de maneira crítica, compreendendo e validando as respostas, sugestões e ações geradas.
+Aplicar essas técnicas de construção de prompts nos estudos de **Java**, **Spring Boot** e na criação de **Agentes de IA** nos próximos módulos da formação.
