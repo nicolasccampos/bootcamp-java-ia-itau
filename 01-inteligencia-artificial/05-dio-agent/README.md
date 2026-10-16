@@ -1,56 +1,42 @@
-# Introdução à Engenharia de Prompts
+# DIO Agent: Nunca Mais Estude Sozinho
 
-Neste módulo do **Bootcamp Java & IA (Itaú + DIO)**, estudei os conceitos fundamentais da **Engenharia de Prompts**, compreendendo como os Modelos de Linguagem (LLMs) interpretam instruções e como estruturar comandos eficientes para obter respostas mais precisas e úteis.
+Neste módulo do **Bootcamp Java & IA (Itaú + DIO)**, explorei o funcionamento e a aplicação prática do **DIO Agent**, um agente de Inteligência Artificial desenvolvido para atuar como um parceiro de estudos e acelerar a jornada de aprendizado em tecnologia.
 
 ---
 
 ## Conteúdos estudados
 
-### 1. Visão Geral e Funcionamento dos LLMs
-
-- **Como os modelos "entendem" um prompt:** Os modelos de linguagem processam o texto dividindo instruções em *tokens* e utilizando padrões estatísticos e mecanismos de atenção para compreender a intenção.
-- **Como os modelos "lembram" do contexto:** O conceito de janela de contexto (*context window*), em que o modelo utiliza as mensagens anteriores para manter a coerência da conversa.
-
----
-
-### 2. Elementos Essenciais de um Bom Prompt
-
-Para garantir respostas de alta qualidade e com menor índice de erros, um prompt bem estruturado deve conter:
-
-1. **Instrução (Task):** O comando claro do que a IA deve executar.
-2. **Contexto (Context):** Informações de fundo para guiar a atuação da IA.
-3. **Dados de Entrada (Input Data):** O conteúdo ou problema específico a ser processado.
-4. **Formato de Saída (Output Indicator):** A estrutura esperada para a resposta (ex: JSON, tabela, código Java, lista, Markdown).
+### 1. Introdução ao DIO Agent
+- **O que é o DIO Agent:** Um agente especializado configurado para auxiliar no fluxo de estudos, tirando dúvidas, explicando conceitos e guiando o aluno na resolução de problemas.
+- **Exploração do Repositório:** Análise da estrutura e dos recursos disponibilizados no repositório oficial da ferramenta.
 
 ---
 
-### 3. Aplicações Práticas no Desenvolvimento de Software
-
-A Engenharia de Prompts pode ser aplicada no dia a dia dev para:
-
-- Explicar trechos de código complexos ou erros de compilação/execução.
-- Auxiliar na refatoração de código e aplicação de boas práticas.
-- Gerar documentação técnica, testes unitários e arquivos de configuração.
-- Escrever e-mails profissionais e resumos de tarefas.
+### 2. Instalação e Configuração
+- **Passo 1: Instalação do Harness:** Compreensão do papel do *harness* (estrutura/ambiente que permite a execução, comunicação e integração do agente de IA com as ferramentas do desenvolvedor).
+- **Passo 2: Configuração do Agente:** Configuração na prática dos parâmetros necessários para conectar e executar o agente de forma integrada.
 
 ---
 
-### 4. Cuidados Importantes no Uso de IA
+### 3. Hands On! — Skills na Prática
 
-- **Alucinações:** Modelos de linguagem podem gerar respostas incorretas ou inventar informações com aparência de verdade.
-- **Segurança e Privacidade:** Nunca enviar dados sensíveis, senhas, chaves de API ou informações confidenciais nos prompts.
-- **Validação Humana:** O código ou texto gerado pela IA deve sempre ser revisado, testado e validado pelo desenvolvedor antes de ser utilizado.
+Durante as atividades práticas, foram exploradas as principais habilidades (*skills*) do agente:
 
----
-
-## Principais Aprendizados
-
-- Um prompt eficiente não é apenas uma pergunta genérica, mas uma **instrução rica em contexto**.
-- Saber se comunicar com a IA (fornecendo contexto, restrições e formato desejado) é uma habilidade que aumenta diretamente a produtividade.
-- A IA atua como uma ferramenta de apoio (*copilot*), mas a responsabilidade do resultado final continua sendo do desenvolvedor.
+- **Skill Plano de Estudos:** Organização e estruturação da rotina de estudos com apoio da IA.
+- **Skill Destravar Desafio (Projetos):** Suporte para interpretar requisitos, estruturar arquitetura e superar bloqueios em Desafios de Projeto.
+-  **Skill Destravar Desafio (Código):** Auxílio na análise de testes, identificação de erros de lógica e sintaxe em Desafios de Código.
+-  **Skill Explicar Conceitos:** Aprendizado de tópicos complexos por meio de analogias, exemplos práticos e explicações passo a passo.
 
 ---
 
-## Próximos Passos
+## Aprendizados principais
 
-Aplicar essas técnicas de construção de prompts nos estudos de **Java**, **Spring Boot** e na criação de **Agentes de IA** nos próximos módulos da formação.
+- Entendimento prático de como agentes de IA podem ser integrados diretamente ao ambiente de estudos e desenvolvimento através de um *harness*.
+- Utilização de habilidades específicas (*skills*) para resolver problemas focados (explicar código, desbloquear exercícios e planejar estudos).
+- O agente atua como um catalisador de aprendizado, ajudando a superar "trava" em desafios sem fornecer soluções prontas de forma passiva.
+
+---
+
+## Próximos passos
+
+Utilizar as habilidades do DIO Agent durante os **Desafios de Código** e **Desafios de Projeto** de Java e Spring Boot ao longo do bootcamp.
