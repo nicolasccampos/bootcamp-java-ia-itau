@@ -1,8 +1,10 @@
-#  Inteligência Artificial
+# 🤖 Módulo 1: Inteligência Artificial e Agentes
 
-Esta pasta reúne meus estudos relacionados à primeira etapa do **Bootcamp Java & IA — Itaú + DIO**, voltada aos fundamentos e à utilização da Inteligência Artificial.
+Esta pasta reúne meus estudos, anotações e certificados referentes ao **Módulo 1** do **Bootcamp Java & IA (Itaú + DIO)**.
 
-##  Conteúdos
+---
+
+## 📚 Conteúdos e Anotações
 
 ### ✅ 01 — Boas-vindas ao Bootcamp
 Apresentação da formação, estrutura do bootcamp e objetivos da jornada.  
@@ -40,8 +42,27 @@ Mentoria com profissionais do Itaú sobre carreira, cultura de tecnologia, ecoss
 
 ---
 
-## 📊 Progresso
+## 🎓 Certificados do Módulo
 
-**6 de 6 atividades concluídas nesta etapa (100%).**
+Abaixo estão os certificados individuais dos cursos concluídos nesta etapa:
 
-✅ **Módulo Concluído**
+1. **Boas-vindas ao Bootcamp Itaú - Java com Inteligência Artificial**  
+   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/LKLYRWR0.pdf)
+
+2. **Fundamentos da IA Moderna: Machine Learning, LLMs, IA Generativa e Agentes**  
+   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/GVRA3VKY.pdf)
+
+3. **Potencializando Seus Estudos e Carreira com IA (Chatbots, Copilotos e Agentes)**  
+   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/YTOCPWND.pdf)
+
+4. **Introdução à Engenharia de Prompts**  
+   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/40VKIMYS.pdf)
+
+5. **DIO Agent: Nunca Mais Estude Sozinho**  
+   [![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/EKIRDYRM.pdf)
+
+---
+
+## 📊 Progresso do Módulo
+
+- **Status:** ✅ Concluído (6 de 6 atividades)
