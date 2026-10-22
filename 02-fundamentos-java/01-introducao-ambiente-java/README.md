@@ -30,8 +30,7 @@ Processo de transformar código-fonte (`.java`) em algo executável/distribuíve
 - Execução de testes automatizados;
 - Empacotamento final (`.jar` ou `.war`).
 
-#### O que é um Gerenciador de Build?
-Ferramenta que automatiza todo esse processo, evitando que ele seja feito manualmente.
+* Gerenciador de Build: Ferramenta que automatiza todo esse processo, evitando que ele seja feito manualmente.
 
 #### Maven
 - Ferramenta tradicional, muito usada no mercado corporativo.
