@@ -66,11 +66,11 @@ Ferramenta que automatiza todo esse processo, evitando que ele seja feito manual
 
 ---
 
-##  Ambiente configurado
+## Ambiente configurado
 
-- **JDK:** _(preencher: versão e distribuição utilizada)_
-- **Gerenciador de Build:** Maven e Gradle instalados e validados via terminal.
-- **IDE:** IntelliJ IDEA.
+- **JDK:** Oracle JDK 25 (LTS), instalado via site oficial da Oracle. Aparentemente a versão 25 em vez da 21 é melhor por não exigir licença comercial para uso em desenvolvimento/produção até 2028–2030, diferente da linha 21.
+- **Gerenciador de Build:** Maven instalado manualmente via [site oficial](https://maven.apache.org/download.cgi); Gradle instalado seguindo o mesmo processo.
+- **IDE:** IntelliJ IDEA (instalação prévia, já utilizada antes do bootcamp).
 
 ---
 
