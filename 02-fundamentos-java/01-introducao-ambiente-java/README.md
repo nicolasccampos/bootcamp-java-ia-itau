@@ -1,236 +1,79 @@
-# ☕ Java & IA — Itaú + DIO
+#  Introdução ao Java e seu Ambiente de Desenvolvimento
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+Primeiras aulas do **Módulo 2** do Bootcamp Java & IA (Itaú + DIO), com foco na configuração do ambiente necessário para desenvolver em Java: JDK, gerenciadores de build e IDEs.
 
 ---
 
-## 📖 Sobre o Repositório
+##  Conteúdos estudados
 
-Este repositório foi criado para registrar minha evolução durante o **Bootcamp Java & IA**, promovido pelo **Itaú Unibanco** em parceria com a plataforma **DIO (Digital Innovation One)**.
-
-Aqui serão armazenados exercícios, desafios de código, projetos e anotações desenvolvidos ao longo da formação.
-
-Mais do que reunir códigos, a proposta deste repositório é acompanhar minha evolução em **Java**, desde os fundamentos da linguagem até conceitos de desenvolvimento Backend, Spring Boot e integração com **Inteligência Artificial**.
+### 1. Introdução
+- Apresentação do curso e do instrutor.
+- História e evolução da linguagem Java, desde sua criação até as versões atuais (LTS).
 
 ---
 
-## 🎯 Sobre o Bootcamp
-
-O programa possui aproximadamente **45 horas de conteúdo**, combinando aprendizado teórico com atividades e desafios práticos.
-
-### 📚 A formação conta com:
-
-- 🎓 **22 cursos**
-- 🚀 **2 desafios de projeto**
-- 💻 **2 desafios de código**
-- 🎥 **1 live**
-- 🤖 Conteúdos sobre Inteligência Artificial
-- ☕ Desenvolvimento com Java
-- 🌱 Ecossistema Spring
+### 2. Configuração do Ambiente Java
+- O que é o **JDK (Java Development Kit)** e por que ele é necessário para compilar e executar código Java.
+- Diferentes formas de instalação do JDK:
+  - Instalador oficial da **Oracle** (Windows).
+  - **Amazon Corretto** via terminal (Linux).
+  - Gerenciador de versões **SDKMAN!** (Linux), que permite alternar entre diferentes versões de JDK facilmente.
 
 ---
 
-## 🗺️ Jornada de Aprendizado
+### 3. Gerenciadores de Build
 
-A formação está organizada em diferentes etapas, partindo do uso da Inteligência Artificial como ferramenta de apoio até o desenvolvimento de aplicações com Java e Spring.
+#### O que é "Build"?
+Processo de transformar código-fonte (`.java`) em algo executável/distribuível. Envolve:
+- Compilação dos arquivos `.java` em `.class`;
+- Gerenciamento e download de dependências externas;
+- Execução de testes automatizados;
+- Empacotamento final (`.jar` ou `.war`).
 
-### 🤖 1. Potencializando Sua Jornada com Inteligência Artificial e Agentes
+#### O que é um Gerenciador de Build?
+Ferramenta que automatiza todo esse processo, evitando que ele seja feito manualmente.
 
-**6 atividades**
+#### Maven
+- Ferramenta tradicional, muito usada no mercado corporativo.
+- Segue o princípio de **"convenção sobre configuração"**.
+- Usa arquivos **XML** (`pom.xml`) para definir dependências e etapas do build.
+- Instalação manual no Windows: configuração da variável `MAVEN_HOME` e inclusão de `%MAVEN_HOME%\bin` no `Path`.
+- Validação: `mvn -version`.
 
-Conteúdos voltados à utilização da Inteligência Artificial como ferramenta de aprendizado, produtividade e apoio durante o desenvolvimento.
+#### Gradle
+- Ferramenta mais moderna e flexível.
+- Usa scripts em **Groovy** ou **Kotlin** (`build.gradle`), permitindo configurações mais personalizadas.
+- Instalação manual no Windows: configuração da variável `GRADLE_HOME` e inclusão de `%GRADLE_HOME%\bin` no `Path`.
+- Validação: `gradle -v`.
 
-#### ✅ Conteúdos concluídos
-
-- [x] **Boas-vindas ao Bootcamp Itaú - Java com Inteligência Artificial**
-- [x] **Fundamentos da IA Moderna: Machine Learning, LLMs, IA Generativa e Agentes**
-- [x] **Potencializando Seus Estudos e Carreira com IA: Chatbots, Copilotos e Agentes**
-- [x] **Introdução à Engenharia de Prompts**
-- [x] **DIO Agent: Nunca Mais Estude Sozinho**
-- [x] **Mentoria: Live de Abertura da Experiência Itaú**
-
-📂 [Acessar anotações e certificados de Inteligência Artificial](./01-inteligencia-artificial/)
-
-**Status:** ✅ Concluído
-
----
-
-### ☕ 2. Fundamentos para Começar a Programar em Java
-
-**4 atividades**
-
-Introdução aos fundamentos necessários para iniciar o desenvolvimento utilizando Java, construindo uma base para os próximos módulos da formação.
-
-**Status:** 🔄 Em andamento
+>  Em ambos os casos, o curso recomenda o uso do **SDKMAN!** para gerenciar versões, mas a instalação manual é útil em cenários como servidores, onde se quer uma versão fixa.
 
 ---
 
-### 🧩 3. Programando o Mundo Real com Orientação a Objetos em Java
+### 4. Instalação de IDEs e Execução do Primeiro Programa Java
+- Apresentação de três IDEs possíveis para desenvolvimento Java: **Eclipse**, **VSCode** e **IntelliJ IDEA**.
+- Execução do primeiro programa Java diretamente no IntelliJ e no VSCode.
 
-**6 atividades**
-
-Estudo e aplicação dos conceitos de **Programação Orientada a Objetos (POO)** utilizando Java para desenvolver soluções mais organizadas e estruturadas.
-
-**Status:** ⏳ A iniciar
+> Já utilizo o **IntelliJ IDEA** como IDE principal, então não houve necessidade de testar as demais alternativas apresentadas no curso.
 
 ---
 
-### 🌐 4. Fundamentos da Web e Boas Práticas de Desenvolvimento com Java
+## Aprendizados principais
 
-**6 atividades**
-
-Estudo dos fundamentos relacionados ao desenvolvimento Web e das boas práticas utilizadas durante a construção de aplicações com Java.
-
-**Status:** ⏳ A iniciar
+- O ambiente de desenvolvimento Java é formado por três peças centrais: **JDK** , **gerenciador de build**  e **IDE**.
+- Maven e Gradle resolvem o mesmo problema de formas diferentes: Maven prioriza padronização via XML, enquanto Gradle prioriza flexibilidade via scripts.
+- Entender esse isso antes de começar evita bastante dor de cabeça nos, principalmente ao lidar com projetos Spring Boot.
 
 ---
 
-### 🌱 5. Criando APIs Modernas no Ecossistema Spring: Boot, Data, Security, Cloud e AI
+##  Ambiente configurado
 
-**5 atividades**
-
-Etapa dedicada ao estudo do ecossistema Spring e à construção de aplicações e APIs modernas.
-
-Entre as tecnologias e conceitos apresentados estão:
-
-- Spring Boot
-- Spring Data
-- Spring Security
-- Spring Cloud
-- Spring AI
-- Desenvolvimento de APIs
-
-**Status:** ⏳ A iniciar
+- **JDK:** _(preencher: versão e distribuição utilizada)_
+- **Gerenciador de Build:** Maven e Gradle instalados e validados via terminal.
+- **IDE:** IntelliJ IDEA.
 
 ---
 
-## 📊 Progresso
+## Próximos passos
 
-Esta seção será atualizada conforme avanço na formação.
-
-| Módulo | Atividades | Status |
-|--------|:----------:|:------:|
-| 🤖 Inteligência Artificial e Agentes | 6 | ✅ Concluído |
-| ☕ Fundamentos de Java | 4 | 🔄 Em andamento |
-| 🧩 Orientação a Objetos com Java | 6 | ⏳ A iniciar |
-| 🌐 Fundamentos Web e Boas Práticas | 6 | ⏳ A iniciar |
-| 🌱 APIs Modernas com Spring | 5 | ⏳ A iniciar |
-
-### Status
-
-- ✅ Concluído
-- 🔄 Em andamento
-- ⏳ A iniciar
-
----
-
-## 🚀 Projetos e Desafios
-
-Além dos cursos, o bootcamp conta com atividades práticas para aplicar os conhecimentos adquiridos durante a formação.
-
-### 💻 Desafios de Código
-
-**2 desafios**
-
-Os desafios de código serão adicionados ao repositório conforme forem realizados.
-
-- [ ] Desafio de Código 01
-- [ ] Desafio de Código 02
-
-### 🛠️ Desafios de Projeto
-
-**2 projetos**
-
-Os projetos serão documentados conforme forem desenvolvidos, incluindo código-fonte e informações sobre o processo de desenvolvimento.
-
-- [ ] Desafio de Projeto 01
-- [ ] Desafio de Projeto 02
-
----
-
-## 📂 Organização do Repositório
-
-Conforme avanço na formação, o repositório será organizado para separar os diferentes conteúdos estudados.
-
-```text
-📦 java-ia-itau-dio
-│
-├── 📂 01-inteligencia-artificial
-│   ├── 📂 01-boas-vindas
-│   ├── 📂 02-fundamentos-ia-moderna
-│   ├── 📂 03-chatbots-copilotos-agentes
-│   ├── 📂 04-engenharia-de-prompts
-│   ├── 📂 05-dio-agent
-│   ├── 📂 06-live-de-abertura
-│   └── 📄 README.md (Anotações e Certificados do Módulo 1)
-│
-├── 📂 02-fundamentos-java
-├── 📂 03-orientacao-a-objetos
-├── 📂 04-fundamentos-web
-├── 📂 05-spring
-│
-├── 📂 desafios-codigo
-├── 📂 desafios-projeto
-│
-├── 📄 .gitignore
-└── 📄 README.md
-```
-
----
-
-## 🛠️ Tecnologias e Ferramentas
-
-### ☕ Tecnologias estudadas durante a formação
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-
-### 🔧 Ferramentas
-
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-## 📈 Objetivo
-
-Meu objetivo com esta formação é aprofundar meus conhecimentos em **Java e desenvolvimento Backend**, complementando os conceitos estudados durante minha graduação em Ciência da Computação com atividades práticas.
-
-Ao longo do bootcamp, busco evoluir meus conhecimentos em **Java, Programação Orientada a Objetos, desenvolvimento Web, APIs e Spring Boot**, além de explorar as possibilidades de utilização da **Inteligência Artificial** no desenvolvimento de software.
-
-Este repositório também funciona como um registro da minha evolução, permitindo acompanhar meu aprendizado desde os fundamentos até projetos mais completos.
-
----
-
-## 🎓 Certificação do Bootcamp
-
-### 🏆 Certificado Geral da Formação
-
-🔄 **Bootcamp Java & IA — Itaú + DIO**
-
-**Status:** Em andamento (Módulo 1/5 concluído).
-
-*(Os certificados de cada curso concluído podem ser consultados dentro da pasta de cada módulo).*
-
----
-
-## 👨‍💻 Autor
-
-**Nicolas Coimbra**
-
-🎓 Ciência da Computação — FECAP  
-💻 Interesse em desenvolvimento Backend e Full Stack  
-☕ Estudando Java & Spring Boot
-
-[![GitHub](https://img.shields.io/badge/GitHub-nicolasccampos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nicolasccampos)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nicolas%20Coimbra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-coimbra-de-campos/)
-
----
-
-⭐ Este repositório será atualizado durante minha jornada no **Bootcamp Java & IA — Itaú + DIO**.
-
-📚 Cada exercício, desafio e projeto representa uma etapa da minha evolução como desenvolvedor.
+Aprender mais dos fundamentos da sintaxe da linguagem Java (variáveis, tipos de dados, estruturas condicionais e de repetição).
