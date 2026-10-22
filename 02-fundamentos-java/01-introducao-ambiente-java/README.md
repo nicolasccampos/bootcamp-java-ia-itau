@@ -1,10 +1,10 @@
-#  Introdução ao Java e seu Ambiente de Desenvolvimento
+# Introdução ao Java e seu Ambiente de Desenvolvimento
 
 Primeiras aulas do **Módulo 2** do Bootcamp Java & IA (Itaú + DIO), com foco na configuração do ambiente necessário para desenvolver em Java: JDK, gerenciadores de build e IDEs.
 
 ---
 
-##  Conteúdos estudados
+## Conteúdos estudados
 
 ### 1. Introdução
 - Apresentação do curso e do instrutor.
@@ -46,7 +46,7 @@ Ferramenta que automatiza todo esse processo, evitando que ele seja feito manual
 - Instalação manual no Windows: configuração da variável `GRADLE_HOME` e inclusão de `%GRADLE_HOME%\bin` no `Path`.
 - Validação: `gradle -v`.
 
->  Em ambos os casos, o curso recomenda o uso do **SDKMAN!** para gerenciar versões, mas a instalação manual é útil em cenários como servidores, onde se quer uma versão fixa.
+> Em ambos os casos, o curso recomenda o uso do **SDKMAN!** para gerenciar versões, mas a instalação manual é útil em cenários como servidores, onde se quer uma versão fixa.
 
 ---
 
@@ -60,9 +60,9 @@ Ferramenta que automatiza todo esse processo, evitando que ele seja feito manual
 
 ## Aprendizados principais
 
-- O ambiente de desenvolvimento Java é formado por três peças centrais: **JDK** , **gerenciador de build**  e **IDE**.
+- O ambiente de desenvolvimento Java é formado por três peças centrais: **JDK**, **gerenciador de build** e **IDE**.
 - Maven e Gradle resolvem o mesmo problema de formas diferentes: Maven prioriza padronização via XML, enquanto Gradle prioriza flexibilidade via scripts.
-- Entender esse isso antes de começar evita bastante dor de cabeça nos, principalmente ao lidar com projetos Spring Boot.
+- Entender isso antes de começar evita bastante dor de cabeça depois, principalmente ao lidar com projetos Spring Boot.
 
 ---
 
@@ -70,7 +70,7 @@ Ferramenta que automatiza todo esse processo, evitando que ele seja feito manual
 
 - **JDK:** Oracle JDK 25 (LTS), instalado via site oficial da Oracle. Aparentemente a versão 25 em vez da 21 é melhor por não exigir licença comercial para uso em desenvolvimento/produção até 2028–2030, diferente da linha 21.
 - **Gerenciador de Build:** Maven instalado manualmente via [site oficial](https://maven.apache.org/download.cgi); Gradle instalado seguindo o mesmo processo.
-- **IDE:** IntelliJ IDEA (instalação prévia, já utilizada antes do bootcamp).
+- **IDE:** IntelliJ IDEA, instalado via site oficial da [JetBrains](https://www.jetbrains.com/idea/).
 
 ---
 
