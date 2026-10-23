@@ -1,6 +1,6 @@
 # Introdução ao Java e seu Ambiente de Desenvolvimento
 
-Primeiras aulas do **Módulo 2** do Bootcamp Java & IA (Itaú + DIO), com foco na configuração do ambiente necessário para desenvolver em Java: JDK, gerenciadores de build e IDEs.
+Primeiras aulas do **Módulo 2** do Bootcamp Java & IA (Itaú + DIO), com foco na configuração do ambiente necessário para desenvolver em Java: JDK, gerenciadores de build, IDEs e a execução dos primeiros programas.
 
 ---
 
@@ -30,7 +30,8 @@ Processo de transformar código-fonte (`.java`) em algo executável/distribuíve
 - Execução de testes automatizados;
 - Empacotamento final (`.jar` ou `.war`).
 
-* Gerenciador de Build: Ferramenta que automatiza todo esse processo, evitando que ele seja feito manualmente.
+#### O que é um Gerenciador de Build?
+Ferramenta que automatiza todo esse processo, evitando que ele seja feito manualmente.
 
 #### Maven
 - Ferramenta tradicional, muito usada no mercado corporativo.
@@ -50,10 +51,46 @@ Processo de transformar código-fonte (`.java`) em algo executável/distribuíve
 ---
 
 ### 4. Instalação de IDEs e Execução do Primeiro Programa Java
-- Apresentação de três IDEs possíveis para desenvolvimento Java: **Eclipse**, **VSCode** e **IntelliJ IDEA**.
-- Execução do primeiro programa Java diretamente no IntelliJ e no VSCode.
 
-> Já utilizo o **IntelliJ IDEA** como IDE principal, então não houve necessidade de testar as demais alternativas apresentadas no curso.
+- Instalação das IDEs sugeridas pelo curso: **Eclipse**, **VSCode** e **IntelliJ IDEA**.
+- No meu caso, foquei no **IntelliJ IDEA**, que já utilizo como IDE principal.
+- Execução do primeiro **Hello World** no IntelliJ, apenas para validar a estrutura do projeto e a configuração do ambiente.
+- Em seguida, desenvolvimento de um **primeiro programa um pouco mais completo**, ainda na mesma aula, explorando:
+  - uso de variáveis;
+  - passagem de argumentos via `String[] args`;
+  - execução e depuração (debug) no IntelliJ.
+
+---
+
+### 5. Exercícios práticos desta aula
+
+Esta aula gerou dois pequenos exercícios organizados no repositório:
+
+#### 🔹 00 - Hello World (Instalação do IntelliJ e primeiro teste)
+
+Exercício associado à parte **“Instalando IntelliJ / executando primeiro programa no IntelliJ”**.  
+Serve para validar:
+
+- se o JDK está configurado corretamente;
+- se o IntelliJ está compilando e executando o projeto;
+- a estrutura mínima de um programa Java.
+
+📂 [Ver exercício](./00-hello-world/README.md)
+
+---
+
+#### 🔹 01 - Primeiro Programa Java (Executando Primeiro Programa Java)
+
+Exercício associado à parte **“Executando primeiro programa no IntelliJ”** da mesma aula.  
+Aqui foi criado um programa um pouco mais elaborado, com:
+
+- impressão de mensagens no console;
+- uso de variável `msg`;
+- leitura de argumentos do `String[] args`;
+- configuração de argumentos na Run Configuration;
+- uso de **Debug**, visualização de variáveis e Evaluate Expression no IntelliJ.
+
+📂 [Ver exercício](./first-program-java/README.md)
 
 ---
 
@@ -61,13 +98,15 @@ Processo de transformar código-fonte (`.java`) em algo executável/distribuíve
 
 - O ambiente de desenvolvimento Java é formado por três peças centrais: **JDK**, **gerenciador de build** e **IDE**.
 - Maven e Gradle resolvem o mesmo problema de formas diferentes: Maven prioriza padronização via XML, enquanto Gradle prioriza flexibilidade via scripts.
-- Entender isso antes de começar evita bastante dor de cabeça depois, principalmente ao lidar com projetos Spring Boot.
+- Os primeiros exercícios com **Hello World** e o **primeiro programa com argumentos/debug** ajudam a consolidar:
+  - a estrutura básica de um programa Java;
+  - o fluxo completo de compilar, executar e depurar código no IntelliJ IDEA.
 
 ---
 
 ## Ambiente configurado
 
-- **JDK:** Oracle JDK 25 (LTS), instalado via site oficial da Oracle. Aparentemente a versão 25 em vez da 21 é melhor por não exigir licença comercial para uso em desenvolvimento/produção até 2028–2030, diferente da linha 21.
+- **JDK:** Oracle JDK 25 (LTS), instalado via site oficial da Oracle. A versão 25 foi escolhida em vez da 21 por não exigir licença comercial para uso em desenvolvimento/produção até aproximadamente 2028–2030.
 - **Gerenciador de Build:** Maven instalado manualmente via [site oficial](https://maven.apache.org/download.cgi); Gradle instalado seguindo o mesmo processo.
 - **IDE:** IntelliJ IDEA, instalado via site oficial da [JetBrains](https://www.jetbrains.com/idea/).
 
@@ -75,4 +114,4 @@ Processo de transformar código-fonte (`.java`) em algo executável/distribuíve
 
 ## Próximos passos
 
-Aprender mais dos fundamentos da sintaxe da linguagem Java (variáveis, tipos de dados, estruturas condicionais e de repetição).
+Aprofundar os fundamentos da sintaxe da linguagem Java (variáveis, tipos de dados, operadores, estruturas condicionais e de repetição) e evoluir para exercícios mais completos nos próximos cursos do módulo.
