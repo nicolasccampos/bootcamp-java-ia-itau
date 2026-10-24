@@ -218,9 +218,9 @@ Este repositório também funciona como um registro da minha evolução, permiti
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
-**Nicolas Coimbra**
+**Nicolas Coimbra de Campos**
 
 🎓 Ciência da Computação — FECAP  
 💻 Interesse em desenvolvimento Backend e Full Stack  
