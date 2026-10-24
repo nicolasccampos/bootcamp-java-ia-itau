@@ -46,7 +46,7 @@ Ferramenta que automatiza todo esse processo, evitando que ele seja feito manual
 - Instalação manual no Windows: configuração da variável `GRADLE_HOME` e inclusão de `%GRADLE_HOME%\bin` no `Path`.
 - Validação: `gradle -v`.
 
-> Em ambos os casos, o curso recomenda o uso do **SDKMAN!** para gerenciar versões, mas a instalação manual é útil em cenários como servidores, onde se quer uma versão fixa.
+> Em ambos os casos, o curso recomenda o uso do **SDKMAN!** para gerenciar versões, mas a instalação manual é útil em cenários como servidores, onde se deseja uma versão fixa.
 
 ---
 
@@ -86,11 +86,19 @@ Aqui foi criado um programa um pouco mais elaborado, com:
 
 - impressão de mensagens no console;
 - uso de variável `msg`;
-- leitura de argumentos do `String[] args`;
+- leitura de argumentos via `String[] args`;
 - configuração de argumentos na Run Configuration;
-- uso de **Debug**, visualização de variáveis e Evaluate Expression no IntelliJ.
+- uso de **Debug**, visualização de variáveis e *Evaluate Expression* no IntelliJ.
 
 📂 [Ver exercício](./first-program-java/README.md)
+
+---
+
+## 🎓 Certificado da aula
+
+Concluí o curso **“Introdução ao Java e seu Ambiente de Desenvolvimento”**, parte do Módulo 2 do bootcamp.
+
+[![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/7IKZD5JA.pdf)
 
 ---
 
