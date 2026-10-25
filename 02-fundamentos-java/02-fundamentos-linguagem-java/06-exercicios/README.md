@@ -29,3 +29,17 @@ Minhas anotações dos exercícios do curso **Fundamentos da Linguagem de Progra
 
   ```java
   var scanner = new Scanner(System.in);
+Métodos que usei:
+
+next() → lê uma palavra (até o primeiro espaço).
+nextLine() → lê a linha inteira (com espaços).
+nextInt() → lê um inteiro.
+nextDouble() → lê um número com ponto/vírgula.
+No exercício 4, se eu uso nextInt() e depois nextLine(), preciso cuidar do Enter que sobra no buffer.
+A solução é chamar um scanner.nextLine() extra entre eles para limpar.
+
+No final, fecho o scanner:
+
+Java
+
+scanner.close();
