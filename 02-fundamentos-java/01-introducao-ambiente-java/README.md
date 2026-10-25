@@ -94,11 +94,9 @@ Aqui foi criado um programa um pouco mais elaborado, com:
 
 ---
 
-## 🎓 Certificado da aula
+## Certificado
 
-Concluí o curso **“Introdução ao Java e seu Ambiente de Desenvolvimento”**, parte do Módulo 2 do bootcamp.
-
-[![Certificado DIO](https://img.shields.io/badge/Certificado-DIO-6C00FF?style=for-the-badge&logoColor=white)](https://hermes.dio.me/certificates/7IKZD5JA.pdf)
+[![Certificado - Introdução ao Java e seu Ambiente de Desenvolvimento](https://hermes.dio.me/certificates/7IKZD5JA.png)](https://hermes.dio.me/certificates/7IKZD5JA.pdf)
 
 ---
 
