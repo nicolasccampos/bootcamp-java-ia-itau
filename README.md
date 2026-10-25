@@ -68,7 +68,7 @@ Introdução aos fundamentos necessários para iniciar o desenvolvimento utiliza
 
 - [x] **Introdução ao Java e seu Ambiente de Desenvolvimento**
 - [x] **Fundamentos da Linguagem de Programação Java**
-- [ ] **Estruturas de Controle em Java** 🔄
+- [x] **Estruturas de Controle em Java**
 - [ ] **Desafio de Código / Projeto do módulo**
 
 📂 [Acessar anotações e exercícios de Fundamentos de Java](./02-fundamentos-java/)
