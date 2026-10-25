@@ -64,6 +64,15 @@ Conteúdos voltados à utilização da Inteligência Artificial como ferramenta 
 
 Introdução aos fundamentos necessários para iniciar o desenvolvimento utilizando Java, construindo uma base para os próximos módulos da formação.
 
+#### 📌 Andamento dos conteúdos
+
+- [x] **Introdução ao Java e seu Ambiente de Desenvolvimento**
+- [x] **Fundamentos da Linguagem de Programação Java**
+- [ ] **Estruturas de Controle em Java** 🔄
+- [ ] **Desafio de Código / Projeto do módulo**
+
+📂 [Acessar anotações e exercícios de Fundamentos de Java](./02-fundamentos-java/)
+
 **Status:** 🔄 Em andamento
 
 ---
@@ -156,7 +165,7 @@ Os projetos serão documentados conforme forem desenvolvidos, incluindo código-
 Conforme avanço na formação, o repositório será organizado para separar os diferentes conteúdos estudados.
 
 ```text
-📦 java-ia-itau-dio
+📦 bootcamp-java-ia-itau
 │
 ├── 📂 01-inteligencia-artificial
 │   ├── 📂 01-boas-vindas
@@ -168,6 +177,24 @@ Conforme avanço na formação, o repositório será organizado para separar os 
 │   └── 📄 README.md (Anotações e Certificados do Módulo 1)
 │
 ├── 📂 02-fundamentos-java
+│   ├── 📂 01-introducao-ambiente-java
+│   │   ├── 📂 00-hello-world
+│   │   └── 📂 first-program-java
+│   ├── 📂 02-fundamentos-linguagem-java
+│   │   ├── 📂 01-padroes-desenvolvimento-conceitos
+│   │   ├── 📂 02-keywords-tipos-primitivos
+│   │   ├── 📂 03-operadores-atribuicao-logicos
+│   │   ├── 📂 04-operadores-aritmeticos
+│   │   ├── 📂 05-operadores-bitwise
+│   │   └── 📂 06-exercicios
+│   ├── 📂 03-estruturas-controle-java
+│   │   ├── 📂 01-if-else-else-if
+│   │   ├── 📂 02-switch-case
+│   │   ├── 📂 03-for
+│   │   ├── 📂 04-while-do-while
+│   │   └── 📂 05-exercicios
+│   └── 📄 README.md (Índice do Módulo 2)
+│
 ├── 📂 03-orientacao-a-objetos
 ├── 📂 04-fundamentos-web
 ├── 📂 05-spring
@@ -177,6 +204,155 @@ Conforme avanço na formação, o repositório será organizado para separar os 
 │
 ├── 📄 .gitignore
 └── 📄 README.md
+```
+
+### 📝 Convenções utilizadas
+
+- **Pastas:** nomes em *kebab-case*, sem acentos, com numeração (`01-...`, `02-...`).
+- **Classes Java:** nomes em `CamelCase` e descritivos (`HelloWorld`, `Exercicio01Idade`, `OperadoresBitwise`).
+- **Arquivos da IDE e de build** (`.idea/`, `out/`, `*.iml`) não são versionados, graças ao `.gitignore`.
+
+### ▶️ Como executar os exemplos
+
+1. Clonar o repositório (comandos na seção abaixo) ou abrir a pasta no **IntelliJ IDEA**.
+2. Marcar a pasta da aula/exercício como **Sources Root**:
+   - botão direito na pasta → `Mark Directory as > Sources Root`.
+3. Abrir a classe que contém o método `main`.
+4. Clicar no botão ▶ ao lado do `main`.
+5. Se o programa usar `Scanner`, digitar os valores no console da IDE.
+
+---
+
+## 🐙 Comandos Git (cola rápida)
+
+Todos os comandos assumem que estou dentro da pasta do repositório.
+
+```bash
+############################################
+# 1. CONFIGURAÇÃO (uma vez por máquina)
+############################################
+
+git config --global user.name "Nicolas Coimbra de Campos"
+git config --global user.email "seuemail@exemplo.com"
+git config --global -l                 # ver configurações atuais
+
+
+############################################
+# 2. CLONAR REPOSITÓRIO
+############################################
+
+git clone https://github.com/nicolasccampos/bootcamp-java-ia-itau.git
+cd bootcamp-java-ia-itau
+
+
+############################################
+# 3. FLUXO DO DIA A DIA
+############################################
+
+git status                             # ver o que mudou
+git add .                              # adicionar tudo ao próximo commit
+git add caminho/Arquivo.java           # adicionar arquivos específicos
+git commit -m "feat: descricao curta"  # criar o commit
+git push origin main                   # enviar para o GitHub
+
+
+############################################
+# 4. QUANDO O PUSH É REJEITADO
+#    (o remoto está na frente do local)
+############################################
+
+git pull --rebase origin main          # traz o remoto e põe meus commits por cima
+git push origin main                   # tenta o push novamente
+
+
+############################################
+# 5. REMOTOS (GitHub)
+############################################
+
+git remote -v                          # ver URLs de fetch/push
+git remote set-url origin https://github.com/nicolasccampos/bootcamp-java-ia-itau.git
+git ls-remote origin                   # testar se o remoto existe/responde
+git remote add origin URL_DO_REPO      # adicionar remoto (repo novo)
+
+
+############################################
+# 6. LIMPAR ARQUIVOS QUE NÃO DEVEM
+#    SER VERSIONADOS (.idea, out, .iml)
+############################################
+
+git rm -r --cached .idea               # remove do Git, mantém no disco
+git rm -r --cached out
+git rm --cached bootcamp-java-ia-itau.iml
+git commit -m "chore: remove arquivos da IDE do versionamento"
+git push origin main
+
+
+############################################
+# 7. HISTÓRICO E INSPEÇÃO
+############################################
+
+git log                                # histórico completo
+git log --oneline --graph --decorate --all   # histórico resumido com gráfico
+git log -- caminho/Arquivo.java        # histórico de um arquivo
+git diff                               # o que mudou desde o último commit
+git show HASH_DO_COMMIT                # detalhes de um commit específico
+
+
+############################################
+# 8. DESFAZER COISAS (usar com cuidado)
+############################################
+
+git restore caminho/Arquivo.java       # desfaz alterações de 1 arquivo (sem add)
+git restore .                          # desfaz alterações de todos os arquivos
+
+git reset caminho/Arquivo.java         # tira 1 arquivo do stage (desfaz o add)
+git reset                              # tira tudo do stage
+
+git reset --soft HEAD~1                # apaga o último commit, MANTÉM os arquivos
+git reset --hard HEAD~1                # apaga o último commit E as alterações (perigoso)
+
+
+############################################
+# 9. BRANCHES
+############################################
+
+git branch                             # listar branches locais
+git switch -c minha-branch             # criar e mudar para uma nova branch
+git switch main                        # voltar para a main
+git push -u origin minha-branch        # enviar a branch nova para o GitHub
+git merge minha-branch                 # juntar a branch na main (estando na main)
+git branch -d minha-branch             # apagar branch já mesclada
+
+
+############################################
+# 10. STASH (guardar mudanças sem commitar)
+############################################
+
+git stash                              # guarda as alterações "na gaveta"
+git stash list                         # lista as stashes salvas
+git stash pop                          # aplica a última e remove da lista
+git stash apply                        # aplica sem remover da lista
+
+
+############################################
+# 11. CRIAR REPO NOVO A PARTIR DE UMA PASTA
+############################################
+
+git init
+git remote add origin https://github.com/usuario/repositorio.git
+git add .
+git commit -m "chore: initial commit"
+git push -u origin main
+```
+
+### 💡 Padrão de mensagens de commit que uso
+
+```text
+feat:     nova funcionalidade / novo exercício
+fix:      correção de algum erro
+docs:     alterações em README e documentação
+chore:    tarefas de manutenção (gitignore, organização de pastas)
+refactor: melhoria de código sem mudar o comportamento
 ```
 
 ---
