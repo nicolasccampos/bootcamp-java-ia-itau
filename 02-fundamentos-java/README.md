@@ -1,57 +1,35 @@
-# ☕ Módulo 2: Fundamentos para Começar a Programar em Java
+# Módulo 2 – Fundamentos de Java
 
-Esta pasta reúne meus estudos, anotações e exercícios práticos referentes ao **Módulo 2** do Bootcamp Java & IA (Itaú + DIO).
+Este módulo reúne tudo o que estudei de Java “puro” no bootcamp **Itaú - Java com IA**: desde a instalação do ambiente até estruturas de controle.
 
----
+## Estrutura do módulo
 
-## 📚 Conteúdos e Anotações
+- [`01-introducao-ambiente-java/`](01-introducao-ambiente-java)  
+  Introdução ao Java, instalação do JDK, IntelliJ IDEA e primeiros programas (Hello World, debug, argumentos etc.).
 
-### ✅ 01 — Introdução ao Java e seu Ambiente de Desenvolvimento
+- [`02-fundamentos-linguagem-java/`](02-fundamentos-linguagem-java)  
+  Fundamentos da linguagem: tipos primitivos, variáveis, operadores, `Scanner`, bitwise e primeiros exercícios de cálculo.
 
-Curso voltado a:
+- [`03-estruturas-controle-java/`](03-estruturas-controle-java)  
+  Estruturas de decisão e repetição: `if/else`, `switch`, `for`, `while` e `do while`, com exercícios.
 
-- entender o que é o JDK e como configurá-lo;
-- conhecer gerenciadores de build (Maven e Gradle);
-- instalar e configurar IDEs (Eclipse, VSCode e IntelliJ IDEA);
-- executar os primeiros programas Java no ambiente configurado.
+Cada pasta tem um `README.md` próprio com minhas anotações mais detalhadas e, quando disponível, o badge do certificado do curso correspondente.
 
-📖 [Ver anotações da aula](./01-introducao-ambiente-java/README.md)
+## Progresso
 
-**Exercícios práticos desta aula:**
+- [x] **Introdução ao Java e seu Ambiente de Desenvolvimento**  
+  → anotações em [`01-introducao-ambiente-java/`](01-introducao-ambiente-java)
 
-- **00 — Hello World (Instalação do IntelliJ e primeiro teste)**  
-  Exercício usado para validar a instalação do IntelliJ e a execução do primeiro `Hello World`.  
-  📂 [Ver exercício](./01-introducao-ambiente-java/00-hello-world/README.md)
+- [x] **Fundamentos da Linguagem de Programação Java**  
+  → anotações em [`02-fundamentos-linguagem-java/`](02-fundamentos-linguagem-java)
 
-- **01 — Primeiro Programa Java (Executando primeiro programa no IntelliJ)**  
-  Programa um pouco mais completo, com variáveis, argumentos (`String[] args`) e uso de debug no IntelliJ.  
-  📂 [Ver exercício](./01-introducao-ambiente-java/first-program-java/README.md)
+- [ ] **Estruturas de Controle em Java**  
+  → em andamento, anotações em [`03-estruturas-controle-java/`](03-estruturas-controle-java)
 
----
+## Observações gerais
 
-### ⏳ 02 — Fundamentos da Sintaxe da Linguagem Java
-_A iniciar._
-
----
-
-### ⏳ 03 — _A definir_
-
-### ⏳ 04 — _A definir_
-
----
-
-## 📊 Progresso do Módulo
-
-- **Atividades concluídas:** 1 de 4 (curso de introdução ao ambiente Java + exercícios práticos)
-- **Status do módulo:** 🔄 Em andamento
-
----
-
-## 🧠 Temas principais deste módulo (até o momento)
-
-- Ambiente de desenvolvimento Java (JDK, Maven, Gradle, IDEs).
-- Estrutura básica de um programa Java.
-- Passagem de argumentos pelo método `main`.
-- Primeiros passos com **debug** no IntelliJ IDEA (breakpoints, inspeção de variáveis, Evaluate Expression).
-
-Novos conteúdos, exercícios e anotações serão adicionados conforme avanço nas próximas aulas.
+- Os exercícios de cada curso ficam em subpastas `exercicios` (ex.: `06-exercicios/`).
+- Procurei manter sempre:
+  - nomes de pastas em **kebab-case** com numeração (`01-...`, `02-...`);
+  - nomes de classes em **CamelCase** (`HelloWorld`, `Exercicio01Idade`, etc.);
+  - nada de arquivos da IDE/versionamento de build no GitHub (`.idea/`, `out/`, `.iml` etc.).
