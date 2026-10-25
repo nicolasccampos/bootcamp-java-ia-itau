@@ -1,0 +1,1 @@
+todos os codigos feitos até aqui são autorais, me orientei a não utilizar a IA nos estudos pois todos os conceitos de estruturas ja tive em outras linguagens como javascript, c, c++ e C#. Então o intuito aqui é desenvolver o que já tenho e inovar com ocnhecimentos obtidos no curso de Java, incluindo assim conhecimentos da sintaxe da linguage e boas praticas.
