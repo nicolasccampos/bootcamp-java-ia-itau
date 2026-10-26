@@ -1,78 +1,153 @@
 # Fundamentos da Linguagem de Programação Java
 
-Minhas anotações do curso **Fundamentos da Linguagem de Programação Java**.
+Essas são minhas anotações da aula **Fundamentos da Linguagem de Programação Java**.
 
-Aqui comecei a entrar mesmo na sintaxe da linguagem: variáveis, tipos, operadores e exercícios simples com entrada via teclado.
+Aqui foi a parte em que eu comecei a mexer de verdade com a linguagem: tipos, variáveis, operadores e pequenos exercícios.
 
-## Estrutura desta pasta
+## O que eu estudei
 
-- [`01-padroes-desenvolvimento-conceitos/`](01-padroes-desenvolvimento-conceitos)  
-  Conceitos iniciais e padrões usados nos exemplos:
-  - estrutura básica de uma classe Java;
-  - método `main`;
-  - boas práticas de nomes:
-    - classes em `CamelCase`;
-    - variáveis e métodos em `camelCase`;
-  - comentários de código (`//` e `/* ... */`).
+- padrões de desenvolvimento e conceitos básicos
+- palavras reservadas
+- tipos primitivos
+- operadores de atribuição e lógicos
+- operadores aritméticos
+- operadores bitwise
+- exercícios práticos
 
-- [`02-keywords-tipos-primitivos/`](02-keywords-tipos-primitivos)  
-  Estudo de **palavras reservadas** (keywords) e **tipos primitivos**:
-  - `int`, `double`, `float`, `boolean`, `char`, `byte`, `short`, `long`;
-  - `String` como tipo de referência mais usado;
-  - declaração e inicialização de variáveis;
-  - conversões (casting) entre tipos numéricos;
-  - uso de `var` para inferência de tipo local (Java 10+).
+---
 
-- [`03-operadores-atribuicao-logicos/`](03-operadores-atribuicao-logicos)  
-  Operadores de:
-  - **atribuição**: `=`, `+=`, `-=`, `*=`, `/=`, `%=`;  
-  - **comparação**: `>`, `<`, `>=`, `<=`, `==`, `!=`;
-  - **lógicos**: `&&` (E), `||` (OU), `!` (negação).  
-  Também vi como combinar comparações com operadores lógicos dentro de `if`.
+## Padrões de desenvolvimento e conceitos
 
-- [`04-operadores-aritmeticos/`](04-operadores-aritmeticos)  
-  Operadores numéricos em Java:
-  - soma, subtração, multiplicação, divisão: `+`, `-`, `*`, `/`;
-  - resto da divisão: `%`;
-  - operadores de incremento/decremento: `++` e `--`;
-  - precedência de operações (ordem de cálculo) e uso de parênteses.
+No começo eu revisei algumas ideias que aparecem o tempo todo em Java:
 
-- [`05-operadores-bitwise/`](05-operadores-bitwise)  
-  Operadores bit a bit:
-  - `&` (AND), `|` (OR), `^` (XOR), `~` (NOT);
-  - deslocamentos: `<<`, `>>`, `>>>`;  
-  Vi como esses operadores funcionam com inteiros e como visualizar o resultado usando `Integer.toBinaryString`.
+- estrutura de uma classe
+- método `main`
+- nomes de variáveis
+- nomes de classes
+- comentários no código
 
-- [`06-exercicios/`](06-exercicios)  
-  Exercícios usando tudo o que foi visto até aqui:
-  1. Ler **nome** e **ano de nascimento** e mostrar a idade atual.
-  2. Calcular a **área de um quadrado** a partir do lado.
-  3. Calcular a **área de um retângulo** (base × altura).
-  4. Ler nome e idade de **2 pessoas** e mostrar a **diferença de idade**.  
-     
-  Os exercícios usam:
-  - `Scanner` para ler dados do usuário;
-  - operadores aritméticos;
-  - `System.out.println` e `System.out.printf`.  
+Foi uma parte boa para reforçar o jeito certo de começar um arquivo Java sem complicar.
 
-  Mais detalhes estão no [`README.md` dessa pasta](06-exercicios/README.md).
+---
 
-## Principais conceitos que pratiquei aqui
+## Keywords e tipos primitivos
 
-- Declaração de variáveis e tipos primitivos.
-- Uso de `var` para inferência de tipo local.
-- Operadores:
-  - aritméticos;
-  - de atribuição;
-  - comparativos;
-  - lógicos;
-  - bitwise.
-- Leitura de entrada pelo teclado com `Scanner`:
-  - `next()`, `nextLine()`, `nextInt()`, `nextDouble()`;
-  - cuidado com o `nextLine()` depois de `nextInt()` (limpar o buffer).
-- Impressão de dados:
-  - `System.out.println` / `System.out.print`;
-  - `System.out.printf` com placeholders (`%s`, `%d`, `%f`) e `\n`.
+Aqui eu anotei os tipos básicos que mais aparecem no dia a dia:
+
+- `int`
+- `double`
+- `float`
+- `boolean`
+- `char`
+- `byte`
+- `short`
+- `long`
+
+Também vi o uso de `String`, que não é primitivo, mas aparece o tempo todo.
+
+Nessa parte eu pratiquei:
+
+- declarar variáveis
+- atribuir valores
+- entender o tipo certo para cada situação
+- usar `var` em alguns casos
+
+---
+
+## Operadores de atribuição e lógicos
+
+Nessa parte eu trabalhei com operadores como:
+
+- `=`
+- `+=`
+- `-=`
+- `*=`
+- `/=`
+- `%=`  
+
+E também com operadores lógicos:
+
+- `&&`
+- `||`
+- `!`
+
+Essa parte foi útil porque começa a preparar para os `if` e para validações de condição.
+
+---
+
+## Operadores aritméticos
+
+Aqui eu revi os cálculos básicos dentro do Java:
+
+- soma
+- subtração
+- multiplicação
+- divisão
+- resto da divisão
+
+Também vi como o Java lida com esses cálculos em variáveis do tipo numérico.
+
+Foi uma parte bem direta, mas importante para os exercícios depois.
+
+---
+
+## Operadores bitwise
+
+Essa foi uma parte mais específica, mas interessante.
+
+Vi os operadores:
+
+- `&`
+- `|`
+- `^`
+- `~`
+- `<<`
+- `>>`
+- `>>>`
+
+Essa parte não é a mais usada em exercícios iniciais, mas ajuda a entender melhor como o Java trabalha com bits.
+
+---
+
+## Exercícios
+
+A pasta de exercícios dessa aula foi importante porque juntou tudo que eu tinha visto até aqui.
+
+Nos exercícios eu pratiquei:
+
+- leitura de dados com `Scanner`
+- uso de `var`
+- cálculos simples
+- operadores
+- escrita de código mais organizada
+
+Os arquivos dessa parte estão em:
+
+`06-exercicios/`
+
+---
+
+## O que eu aprendi de forma prática
+
+Aqui foi onde eu senti mais diferença, porque comecei a escrever código com mais confiança.
+
+O que ficou mais claro para mim:
+
+- escolher o tipo certo para cada variável
+- usar `Scanner` para receber dados
+- usar operadores para fazer contas e comparações
+- pensar melhor na estrutura do código antes de escrever
+- separar bem cada exercício em seu próprio arquivo
+
+---
+
+## Sobre os exercícios
+
+Os exercícios desta pasta foram feitos para fixar o conteúdo da aula.
+
+Eu deixei tudo organizado em uma pasta separada para ficar mais fácil de revisar depois.
+
+---
 
 ## Certificado
 
