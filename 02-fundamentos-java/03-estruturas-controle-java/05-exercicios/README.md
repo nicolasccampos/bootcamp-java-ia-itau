@@ -17,17 +17,6 @@ Esses são meus exercícios e anotações da aula **Estruturas de Controle em Ja
 
 ---
 
-## Organização dos arquivos
-
-| Exercício | Pasta | Arquivo principal |
-|-----------|-------|------------------|
-| 1 – Tabuada | `tabuada/` | `Tabuada.java` |
-| 2 – IMC | `imc_classificacao/` | `ImcClassificacao.java` |
-| 3 – Intervalo par ou ímpar | `intervalo_par_ou_impar/` | `IntervaloParOuImpar.java` |
-| 4 – Divisão condicional | `divisao_condicional/` | `DivisaoCondicional.java` |
-
----
-
 ## O que eu aprendi em cada exercício
 
 ### 1. Tabuada
