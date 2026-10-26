@@ -1,46 +1,85 @@
 # Introdução ao Java e seu Ambiente de Desenvolvimento
 
-Minhas anotações do curso **Introdução ao Java e seu Ambiente de Desenvolvimento**.
+Essas são minhas anotações da aula **Introdução ao Java e seu Ambiente de Desenvolvimento**.
 
-## O que configurei
+Aqui foi a parte mais básica do começo: preparar o ambiente, entender como o Java roda e fazer os primeiros programas.
 
-- Instalação do **Java (JDK)**.
-- Instalação e primeiros passos com o **IntelliJ IDEA**.
-- Criação de um **projeto Java** e primeiros arquivos `.java`.
-- Execução de programas:
-  - direto pela IDE (botão ▶);
-  - visualização da saída no console.
-- Noções iniciais de:
-  - estrutura de um programa Java (`class`, `main`, `System.out.println`);
-  - organização em pastas/projeto.
+## O que eu vi nessa aula
 
-## Estrutura desta pasta
+- instalação e configuração do Java
+- uso do IntelliJ IDEA
+- criação do primeiro projeto
+- estrutura básica de um programa Java
+- execução de código pela IDE
+- debug
+- entrada de dados com `Scanner`
 
-- [`00-hello-world/`](00-hello-world)  
-  Meu primeiro programa em Java. Focado em:
-  - entender a estrutura mínima:
-    - `public class HelloWorld { ... }`
-    - `public static void main(String[] args) { ... }`
-  - usar `System.out.println` para imprimir mensagens no console.
+---
 
-- [`first-program-java/`](first-program-java)  
-  Primeiro programa um pouco mais completo, baseado no que foi mostrado na aula:
-  - uso de `Scanner` para ler dados do teclado;
-  - captura de argumentos/entradas;
-  - uso de **debug** no IntelliJ (breakpoints, step over etc.);
-  - impressão formatada no console (`System.out.printf`).
+## Primeiros passos
 
-Cada subpasta tem o seu próprio `README.md` explicando melhor o que o código faz (prints, prints de tela etc.).
+Essa aula foi importante para eu entender como organizar um projeto Java e como rodar os arquivos sem complicação.
 
-## Anotações rápidas sobre o IntelliJ
+Aprendi coisas como:
 
-- Atalho para criar o `main`: digitar `psvm` e apertar `Tab`/`Enter`.
-- Atalho para `System.out.println`: digitar `sout` e apertar `Tab`/`Enter`.
-- Para rodar um programa:
-  - clicar no ▶ ao lado do `main`;
-  - ou usar o menu **Run > Run 'NomeDaClasse'**.
-- Marcar a pasta onde estão os `.java` como **Sources Root**:
-  - botão direito na pasta → `Mark Directory as > Sources Root`.
+- abrir o projeto certo no IntelliJ
+- criar arquivos `.java`
+- rodar a classe com `main`
+- marcar pasta como `Sources Root` quando necessário
+- usar atalhos da IDE para agilizar o trabalho
+
+---
+
+## Hello World
+
+A primeira parte foi bem simples: criar um programa que imprime uma mensagem na tela.
+
+Aqui eu entendi melhor a estrutura mínima de uma classe Java:
+
+- `public class ...`
+- `public static void main(String[] args)`
+- `System.out.println(...)`
+
+Esse foi o primeiro contato com a estrutura real de um programa em Java.
+
+---
+
+## Primeiro programa com entrada de dados
+
+Depois disso, vi um programa um pouco mais completo, já recebendo valores do usuário com `Scanner`.
+
+Nessa parte, eu pratiquei:
+
+- leitura de dados pelo console
+- uso de `next()`, `nextInt()` e outras leituras simples
+- impressão formatada com `printf`
+- lógica básica para trabalhar com os valores informados
+
+Também comecei a usar o debug da IDE para acompanhar melhor o que estava acontecendo linha por linha.
+
+---
+
+## O que ficou mais marcado
+
+Algumas coisas que anotei e levei dessa aula:
+
+- toda classe executável precisa de um `main`
+- o `Scanner` serve para ler o que o usuário digita
+- o IntelliJ ajuda bastante, mas precisa estar bem configurado
+- entender a estrutura do projeto desde o começo evita muita confusão depois
+
+---
+
+## Exercícios e anotações
+
+Os exemplos e anotações dessa aula ficaram organizados nas subpastas abaixo:
+
+- `00-hello-world/`
+- `first-program-java/`
+
+Cada uma delas tem seus próprios arquivos e observações.
+
+---
 
 ## Certificado
 
