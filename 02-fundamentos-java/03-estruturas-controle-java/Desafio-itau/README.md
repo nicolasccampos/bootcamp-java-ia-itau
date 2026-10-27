@@ -1,19 +1,15 @@
-# Desafios de Código – Fundamentos para Começar a Programar em Java
+# Desafios de Código – Fundamentos do Java no Setor Bancário
 
-Aqui estão reunidos os desafios de código que fiz no módulo **Fundamentos para Começar a Programar em Java**.
+Aqui estão reunidos os dois desafios de código do bloco de **Estruturas de Controle em Java**.
 
-A ideia desta pasta é guardar os enunciados, os arquivos com as soluções e minhas anotações sobre o que pratiquei em cada desafio.
+A ideia dessa pasta é guardar os enunciados, as soluções em Java e minhas anotações sobre o que pratiquei em cada desafio.
 
-## Visão geral
-
-- Desafio 1: validação de operação bancária
-- Desafio 2: comparação exata de códigos
-
-## Organização dos arquivos
+## Arquivos da pasta
 
 - `Desafio01.java`
 - `Desafio02.java`
-- `README.md`
+
+---
 
 ## Desafio 1 – Validação de operação bancária
 
@@ -33,15 +29,11 @@ A entrada contém uma única linha com uma string representando o código da ope
 
 Imprima `VALID` se a string for exatamente `DEPOSITO`, `SAQUE` ou `TRANSFERENCIA`. Caso contrário, imprima `INVALID`.
 
-### Arquivo da solução
-
-`Desafio01.java`
-
 ### O que eu pratiquei aqui
 
 - leitura de texto com `Scanner`
 - comparação exata de `String`
-- uso de `if`, `else` ou `switch`
+- uso de condição para validar uma entrada
 - saída simples e objetiva, do jeito que o enunciado pede
 
 ---
@@ -71,10 +63,6 @@ Exiba uma única linha.
 Se os códigos forem exatamente iguais, imprima `ACESSO LIBERADO`.  
 Caso contrário, imprima `ACESSO NEGADO`.
 
-### Arquivo da solução
-
-`Desafio02.java`
-
 ### O que eu pratiquei aqui
 
 - leitura de duas entradas com `Scanner`
@@ -95,11 +83,15 @@ Esses desafios me ajudaram a reforçar pontos importantes da base de Java:
 - manter a saída exatamente como o enunciado pede
 - pensar na solução de forma simples e objetiva
 
+---
+
 ## Sobre minha abordagem
 
 Esses códigos foram feitos por mim, usando a base que eu já tinha de outras linguagens e adaptando tudo para a sintaxe do Java.
 
 A ideia aqui foi praticar a linguagem de forma direta, reforçando lógica, leitura de entrada, comparação de strings e boas práticas de organização.
+
+---
 
 ## Observações
 
