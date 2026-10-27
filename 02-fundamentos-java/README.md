@@ -28,7 +28,7 @@ Cada pasta tem o seu próprio `README.md` com anotações, exemplos e links para
 | Introdução ao Java e seu Ambiente de Desenvolvimento | ✅ Concluído |
 | Fundamentos da Linguagem de Programação Java | ✅ Concluído |
 | Estruturas de Controle em Java | ✅ Concluído |
-| Desafio de código / projeto do módulo | ⏳ A iniciar |
+| Desafio de código / projeto do módulo | ✅ Concluído |
 
 ## Observações gerais
 
